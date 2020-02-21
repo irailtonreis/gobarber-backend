@@ -1,6 +1,8 @@
 import express from 'express';
 import routes from './routes';
 
+import './database';
+
 class App {
   constructor() {
     this.server = express();
@@ -9,7 +11,7 @@ class App {
   }
 
   middlewares() {
-    console.log('teste');
+    this.server.use(express.json());
   }
 
   routes() {
