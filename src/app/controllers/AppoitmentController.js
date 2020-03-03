@@ -1,5 +1,5 @@
 import * as Yup from 'yup';
-import Appointiment from '../models/Appointment';
+import Appointment from '../models/Appointment';
 
 class AppointimentController {
   async store(req, res) {
