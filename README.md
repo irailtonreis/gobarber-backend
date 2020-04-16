@@ -54,12 +54,54 @@ A aplicação como base uma barbearia para conectar clientes com provedores de s
 ```sh
 yarn install
 ```
+## Configurar variáveis de ambiente .env.example
+```sh
+APP_URL=http://localhost:8080
+NODE_ENV=development
+
+# Auth
+
+APP_SECRET=
+
+# Database
+
+DB_HOST=
+DB_USER=
+DB_PASS=
+DB_NAME=
+
+# Mongo
+
+MONGO_URL=
+
+# Redis
+
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6379
+
+
+# Mail
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USER=
+MAIL_PASS=
+
+
+# Sentry
+SENTRY_DSN=
+
+```
+
+## Conectar base dados postgres através do docker
+```sh
+ docker run --name database -e POSTGRES_PASSWORD=mypassword -p 5432:5432 -d postgres
+```
 
 ## Uso
 
 ```sh
 yarn run dev
-
+```
 
 
 
