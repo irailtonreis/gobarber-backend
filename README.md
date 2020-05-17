@@ -5,7 +5,8 @@
 
 A aplicação como base uma barbearia para conectar clientes com provedores de serviços permitindo que o cliente possa fazer um agendamento dentro do horário de atendimento.
 
-
+## Insomnia
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=teste&uri=https%3A%2F%2Fraw.githubusercontent.com%2Firailtonreis%2Fgobarber-backend%2Fmaster%2Fapi-insomnia.json)
 ## 💻 Tecnologias
 - Node.js
 - Express
